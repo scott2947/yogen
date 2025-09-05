@@ -3,3 +3,5 @@ pyproject.toml
 yogen.egg-info/
 __pycache__/
 playground/
+*.keras
+*.csv
