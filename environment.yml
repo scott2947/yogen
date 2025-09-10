@@ -1,0 +1,16 @@
+name: yogen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - streamlit
+  - pytest
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - torch
+  - keras
+  - pip
+  - pip:
+      - -e .

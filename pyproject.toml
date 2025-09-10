@@ -1,0 +1,13 @@
+[project]
+name = "yogen"
+version = "0.2.0"
+description = "Tool for predicting stock prices"
+authors = [{name = "Callum Scott", email = "scott2947.dev@gmail.com"}]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
